@@ -1,0 +1,335 @@
+/* Google fonts */
+/* font-family: 'Nunito Sans', sans-serif; */
+h1 {
+    font-family: "Nunito Sans", sans-serif;
+    color: #ffffff;
+    font-weight: 600;
+    size: 3.5rem;
+}
+
+h2 {
+    font-family: "Nunito Sans", sans-serif;
+    color: #ffffff;
+    font-weight: 600;
+    size: 2.5rem;
+}
+
+h3 {
+    font-family: "Nunito Sans", sans-serif;
+    color: #0071BB;
+    font-weight: 600;
+    size: 3.5rem;
+}
+
+body {
+    font-family: "Nunito Sans", sans-serif;
+    color: #0071BB;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.heading-section h2 {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.heading-section h2 span {
+    font-weight: 900;
+}
+
+@media (max-width: 767.98px) {
+    .heading-section h2 {
+        font-size: 28px;
+    }
+}
+
+.heading-section.heading-section-white {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.heading-section.heading-section-white h2 {
+    font-size: 40px;
+    color: #fff;
+}
+
+.heading-section.heading-section-white h2 span {
+    color: #0071BB;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+/* Navbar */
+.navbar-brand {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.navbar {
+    padding: .5rem 0 0.5rem;
+}
+
+.nav-link {
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: light;
+    font-size: 1.5rem;
+}
+
+.dropdown-item {
+    background-color: #fff;
+    font-size: 1rem;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+/* End navbar */
+
+/* Carousel */
+
+.drk:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: black;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+.carousel-caption {
+    z-index: 2;
+    top: 50%;
+}
+
+.carousel .carousel-item img {
+    height: 200px;
+    object-fit: cover;
+    display: block;
+    min-height: 85vh;
+}
+
+@media (min-width: 768px) {
+    .carousel .carousel-item img {
+        height: 850px;
+        object-fit: cover;
+    }
+}
+
+/* End carousel */
+
+/* Services section */
+
+.service-banner-section {
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    padding-top: 170px;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+.service-banner-section .content-box {
+    position: relative;
+    top: 210px;
+    z-index: 1;
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+
+.auto-container {
+    position: static;
+    max-width: 1200px;
+    padding: 150px 15px;
+    margin: 50px auto;
+}
+
+.text-center {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 16pxrem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.text {
+    font-family: "Nunito Sans", sans-serif;
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+}
+
+.logos {
+    font-size: 5rem;
+    text-align: center;
+    color: #0071BB
+}
+
+.ftco-section {
+    padding: 6em 0;
+    position: relative;
+}
+
+/* End services section */
+
+/* Sponsors section */
+.sponsors-section {
+    background: #0071BB;
+    padding: 30px;
+}
+
+/* Results section */
+.results {
+    background: #ffffff;
+    padding-top: 92px;
+    padding-bottom: 100px;
+}
+
+.results_row {
+    margin-top: 5px;
+}
+
+.results_title {
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+
+.results_subtitle {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-top: 4px;
+}
+
+.col-centered {
+    float: none;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 30px;
+}
+
+.border-line {
+    border-right: 1px solid #0071BB;
+}
+
+hr {
+    width: 30%;
+    margin: 0 auto;
+    border: 5px #0071BB;
+}
+
+/* Footer section */
+.copyright_part {
+    background-color: #303030;
+    padding: 15px;
+}
+
+a,
+.footer-social {
+    font-size: 2.0rem;
+    color: #fff;
+}
+
+.footer-text {
+    font-size: 1rem;
+    color: #fff;
+}
+
+.fa-instagram-square:hover,
+.fa-facebook-square:hover {
+    color: #0071BB;
+}
+
+/* End footer section */
+*/
+
+/* Training section */
+.map-section {
+    align-items: center;
+    margin: auto;
+}
+
+/* Membership options */
+
+.pricing-header,
+.club-history {
+    max-width: 700px;
+    margin-top: 90px;
+}
+
+/* Marketing content */
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing-section {
+    margin-top: 4rem;
+}
+.marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+
+}
+
+.marketing h2 {
+    font-weight: 400;
+}
+
+/* rtl:begin:ignore */
+.marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+}
+
+/* rtl:end:ignore */
+
+
+/* Featurettes
+  ------------------------- */
+
+.featurette-divider {
+    margin: 5rem 0;
+    /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    /* rtl:remove */
+    letter-spacing: -.05rem;
+}
+
+
+/* RESPONSIVE CSS
+  -------------------------------------------------- */
+
+@media (min-width: 40em) {
+
+    /* Bump up size of carousel content */
+    .carousel-caption p {
+        margin-bottom: 1.25rem;
+        font-size: 1.25rem;
+        line-height: 1.4;
+    }
+
+    .featurette-heading {
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 62em) {
+    .featurette-heading {
+        margin-top: 7rem;
+    }
+}
