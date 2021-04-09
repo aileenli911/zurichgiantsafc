@@ -32,7 +32,6 @@
 </head>
 
 <body>
-
     <!-- Navbar -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #0071BB">
         <div class="container-fluid">
@@ -48,7 +47,17 @@
                         <a class="nav-link" aria-current="page" href="index.html">Home</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            About
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="afl.html">What is AFL</a></li>
+                            <li><a class="dropdown-item" href="auskick.html">Auskick</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">
                             Club
                         </a>
@@ -56,7 +65,7 @@
                             <li><a class="dropdown-item" href="clubHistory.html">Club history</a></li>
                             <li><a class="dropdown-item" href="membership.html">Membership</a></li>
                             <li><a class="dropdown-item" href="committee.html">Committee</a></li>
-                            <li><a class="dropdown-item" href="#">Team lineup</a></li>
+                            <li><a class="dropdown-item" href="team.html">Team lineup</a></li>
                             <li><a class="dropdown-item" href="#">Founding members</a></li>
                         </ul>
                     </li>
@@ -67,14 +76,12 @@
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li><a class="dropdown-item" href="training.html">Training </a></li>
-                            <li><a class="dropdown-item" href="https://aflswitzerland.ch/">AFL Switzerland</a></li>
-                            <li><a class="dropdown-item" href="https://afleurope.org/">AFL Europe</a></li>
+                            <li><a class="dropdown-item" href="matches.html">Matches</a></li>
+                            <li><a class="dropdown-item" href="events.html">Social events</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="shop.html">Shop</a>
-                    <li class="nav-item">
-                        <a class="nav-link" href="auskick.html">Auskick</a>
                     <li class="nav-item">
                         <a class="nav-link" href="contact.html">Contact us</a>
                     </li>
@@ -92,11 +99,16 @@
             <h3 class="display-4 fw-normal">Club History</h3>
         </div>
         <div class="row">
-            <p class="fs-5 text-muted text-left"><strong> The Zurich Giants may be the youngest club in the Swiss Australian
+            <img src="images/image1.jpg" style="margin-bottom: 20px;">
+        </div>
+        <div class="row">
+            <p class="fs-5 text-muted text-left"><strong> The Zurich Giants may be the youngest club in the Swiss
+                    Australian
                     Football League, however we have
                     already built a rich and diverse team based in the heart of Zurich city. </strong>
             </p>
-            <p class="fs-5 text-muted fw-light"> On the 1st of September 2019, the Zurich Giants Australian Football Club
+            <p class="fs-5 text-muted fw-light"> On the 1st of September 2019, the Zurich Giants Australian Football
+                Club
                 was
                 born.The
                 fourth club to join
@@ -117,32 +129,59 @@
                 function
                 better on the field as a team.
             </p>
-            <p class="fs-5 text-muted fw-light"> As of 2021, the Giants have helped build the sport in Switzerland through
+            <p class="fs-5 text-muted fw-light"> As of 2021, the Giants have helped build the sport in Switzerland
+                through
                 the
                 development of the Auskick
                 program with the aim of promoting the sport amongst the youth of Switzerland.
 
             </p>
         </div>
-    </div>
 
 
-    <!-- Footer section -->
 
-    <footer class="copyright_part">
-        <div class="container">
-            <div class="row align-items-center">
-                <p class="footer-text">
-                    Copyright © 2021 All rights reserved </p>
-                <div class="footer-social">
-                    <a href="https://www.facebook.com/zurichgaintsafc/posts"><i class="fab fa-facebook-square"></i></a>
-                    <a href="https://www.instagram.com/zurichgiantsafc/?hl=en"><i
-                            class="fab fa-instagram-square"></i></a>
+        <!-- Footer section -->
+
+        <footer class="pt-4 my-md-5 pt-md-5 border-top">
+            <div class="row">
+                <div class="col-12 col-md">
+                    <img class="mb-2" src="images\ZurichGiants-MainLogo1K-128x128.png" alt="" width="50" height="50">
+                    <small class="d-block mb-3 text-muted">© 2019–2021</small>
+                </div>
+                <div class="col-6 col-md">
+                    <h5>Find us on social media</h5>
+                    <ul class="list-unstyled text-small">
+                        <li class="mb-1"><a class="link-secondary text-decoration-none"
+                                href="https://www.instagram.com/zurichgiantsafc/?hl=en">Instagram</a></li>
+                        <li class="mb-1"><a class="link-secondary text-decoration-none"
+                                href="https://www.facebook.com/zurichgaintsafc/posts">Facebook</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md">
+                    <h5>More about AFL</h5>
+                    <ul class="list-unstyled text-small">
+                        <li class="mb-1"><a class="link-secondary text-decoration-none"
+                                href="https://afleurope.org/">AFL Europe</a></li>
+                        <li class="mb-1"><a class="link-secondary text-decoration-none"
+                                href="https://aflswitzerland.ch/">AFL Switzerland</a></li>
+                        <li class="mb-1"><a class="link-secondary text-decoration-none"
+                                href="https://www.igacr.ch/">IGACR</a></li>
+                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Other vereins?</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md">
+                    <h5>About the Zurich Giants</h5>
+                    <ul class="list-unstyled text-small">
+                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">GV Protokoll would go
+                                here</a></li>
+                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Locations</a></li>
+                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Privacy</a></li>
+                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Terms</a></li>
+                    </ul>
                 </div>
             </div>
-        </div>
-    </footer>
-
+        </footer>
+    </div>
     <!-- End footer section -->
 
     <!-- Optional JavaScript; choose one of the two! -->
